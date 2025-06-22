@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
+	<ConfigVersions>
+		<Metadata name="Catalog.Заявители" id="608568d4-b726-4f24-bb69-b9cd402127d6" configVersion="1479dfa4beaa1c49b881ea61fbab3e6d00000000">
+			<Metadata name="Catalog.Заявители.Attribute.Адрес" id="08d1921f-dd4e-4afb-9783-27472b04a0b9"/>
+			<Metadata name="Catalog.Заявители.Attribute.ЛицевойСчет" id="2f178498-4a32-4098-9291-1c07e99eca55"/>
+			<Metadata name="Catalog.Заявители.Attribute.ИНН" id="37f56c5c-7431-4bc5-9257-8eaff3dd313d"/>
+			<Metadata name="Catalog.Заявители.Attribute.ТипЗаявителя" id="60e24aac-3fd2-43cf-91fb-8cfa1cdddb95"/>
+			<Metadata name="Catalog.Заявители.Attribute.Телефон" id="7f253bb9-2947-4b60-b2d5-188279205a2c"/>
+			<Metadata name="Catalog.Заявители.Attribute.Email" id="9465881c-fd96-4c92-bbaf-dd1bc8fdfe1a"/>
+			<Metadata name="Catalog.Заявители.Attribute.ФИО" id="9e540892-c170-4fa5-8623-701cc0a4e0a5"/>
+		</Metadata>
+		<Metadata name="Catalog.ОбъектыГазоснабжения" id="c3c1dfaf-8bc3-40b8-8209-9d49be7427c1" configVersion="809d02f435827a46852fc97d4626cb9e00000000">
+			<Metadata name="Catalog.ОбъектыГазоснабжения.Attribute.АдресОбъекта" id="5b28207b-3300-4dd7-9b20-c3aacd8c3488"/>
+			<Metadata name="Catalog.ОбъектыГазоснабжения.Attribute.Заявитель" id="ae17360b-40d6-47d6-b028-c36d3d06c32b"/>
+			<Metadata name="Catalog.ОбъектыГазоснабжения.Attribute.ДатаПодключения" id="afdd4393-21a1-4732-ab23-75bc6bd0f064"/>
+			<Metadata name="Catalog.ОбъектыГазоснабжения.Attribute.ТипОбъекта" id="cd4f45a3-9b3c-4f74-80c3-79ad97c09e71"/>
+		</Metadata>
+		<Metadata name="Catalog.ПриборыУчета" id="31af61b4-d100-4814-b44e-58e4956e5191" configVersion="077b3d57cba7b9488cb5a3f219e395d600000000">
+			<Metadata name="Catalog.ПриборыУчета.Attribute.Объект" id="03c14ceb-d324-4815-880a-e599d0cf8250"/>
+			<Metadata name="Catalog.ПриборыУчета.Attribute.ДатаПроверки" id="068b7e3a-89a5-4f69-8bb4-eccb990fa9c5"/>
+			<Metadata name="Catalog.ПриборыУчета.Attribute.НомерПрибора" id="d51ebd73-97d2-4df6-8d50-6b4d471f086e"/>
+			<Metadata name="Catalog.ПриборыУчета.Attribute.ДатаУстановки" id="dccdbe85-8a21-438b-84c9-082977124be5"/>
+		</Metadata>
+		<Metadata name="Configuration.Конфигурация" id="bd76639a-c7a9-4136-962d-bd24cd8542f9" configVersion="6a8839a06a052f4e9329f51ce08593ae00000000"/>
+		<Metadata name="DataProcessor.ОбработчикРасчетаПотребления" id="af83741d-8d94-4128-87dc-a39e968d0db5" configVersion="f84a1e5d2578ba499607eb4c7fca355600000000"/>
+		<Metadata name="DataProcessor.ОбработчикРасчетаПотребления.ObjectModule" id="af83741d-8d94-4128-87dc-a39e968d0db5.0" configVersion="b275c0f4a075614aa40f3c2c07d5c31a00000000"/>
+		<Metadata name="DataProcessor.ОбработчикРасчетаСуммыОплаты" id="4d99a234-9db8-49c2-8484-cac8cd731543" configVersion="a280dc1f58faa8479c11713b7a393d0e00000000"/>
+		<Metadata name="DataProcessor.ОбработчикРасчетаСуммыОплаты.ObjectModule" id="4d99a234-9db8-49c2-8484-cac8cd731543.0" configVersion="bf8b97ff779e114182180d246163559900000000"/>
+		<Metadata name="DataProcessor.ОбработчикФормированияКвитанции" id="cf9f46c7-14ed-4371-8d45-55d097e81a09" configVersion="b55f2c319442f84085f817df5574433b00000000"/>
+		<Metadata name="DataProcessor.ОбработчикФормированияКвитанции.ObjectModule" id="cf9f46c7-14ed-4371-8d45-55d097e81a09.0" configVersion="ea3f834a816ffe4caa4e8a199dc638cb00000000"/>
+		<Metadata name="Document.НачислениеОплаты" id="1c46adeb-27f4-45cc-909f-57d7140a234f" configVersion="aa13d16dbd76454380be883a69dddc5c00000000">
+			<Metadata name="Document.НачислениеОплаты.Attribute.Период" id="2ea86ae7-3d70-415f-8976-33de28be253b"/>
+			<Metadata name="Document.НачислениеОплаты.Attribute.Сумма" id="2fce7b2f-6bfd-4d0b-b72f-675ffa921293"/>
+			<Metadata name="Document.НачислениеОплаты.Attribute.ОбъемПотребления" id="79acc54f-c9a4-4a8d-9c4b-49bca329168e"/>
+			<Metadata name="Document.НачислениеОплаты.Attribute.Объекты" id="8c6b5c91-52e8-4be1-a9a5-2f2c4124f5d9"/>
+			<Metadata name="Document.НачислениеОплаты.Attribute.Тариф" id="94b18f6b-9b2b-4aef-ac14-0502b54d211f"/>
+			<Metadata name="Document.НачислениеОплаты.Attribute.СтатусОплаты" id="c7e16bad-e60c-4514-b4d0-418184782b67"/>
+		</Metadata>
+		<Metadata name="Document.НачислениеОплаты.Form.ФормаДокумента" id="f375dd7b-8d71-4d4f-83c7-1e7142ca6746" configVersion="1737f60ec80d5644ac85adda85decc3900000000"/>
+		<Metadata name="Document.НачислениеОплаты.Form.ФормаДокумента.Form" id="f375dd7b-8d71-4d4f-83c7-1e7142ca6746.0" configVersion="7d2101d3cdac1f44af775fd32f12825e00000000"/>
+		<Metadata name="Document.Оплата" id="606ab169-0846-4b45-8100-d3d0a057394b" configVersion="6c670b4486dec54899958068149cb80000000000">
+			<Metadata name="Document.Оплата.Attribute.ДатаОплаты" id="0eec244d-aa49-4e7b-b6e9-86e50eab9cdf"/>
+			<Metadata name="Document.Оплата.Attribute.Начисление" id="24cd48dc-f641-4abc-a679-b1ba6f5ba7f8"/>
+			<Metadata name="Document.Оплата.Attribute.Сумма" id="47cd15bc-e988-47e2-9a9a-6963f35ed184"/>
+			<Metadata name="Document.Оплата.Attribute.СпособОплаты" id="9ec6d438-1dbe-4b3f-87ee-842145c0d44b"/>
+		</Metadata>
+		<Metadata name="Document.Оплата.Form.ФормаДокумента" id="2ece2ad9-4839-43ec-ab5d-99ef9f6a99f1" configVersion="06f2988367266b4cae78d52045b3227300000000"/>
+		<Metadata name="Document.Оплата.Form.ФормаДокумента.Form" id="2ece2ad9-4839-43ec-ab5d-99ef9f6a99f1.0" configVersion="039fb74f7b902c409a752f846d296ef400000000"/>
+		<Metadata name="Document.ПоказанияПриборовУчета" id="27cfd592-b4c1-42d8-80b5-38c8e428de9e" configVersion="b057f108841abc4098a8bec9f67a4f2a00000000">
+			<Metadata name="Document.ПоказанияПриборовУчета.Attribute.ДатаСнятия" id="2c8f28b3-127f-4362-8405-ada0728b2bd9"/>
+			<Metadata name="Document.ПоказанияПриборовУчета.Attribute.Период" id="46ef358a-ced8-4873-bd5f-03d5380beae2"/>
+			<Metadata name="Document.ПоказанияПриборовУчета.Attribute.Показания" id="c6d13cee-919e-48fb-92e2-f7c1d2eb2755"/>
+			<Metadata name="Document.ПоказанияПриборовУчета.Attribute.Прибор" id="f4c083a5-bad7-4ef4-b504-2d7f3fe0aa41"/>
+		</Metadata>
+		<Metadata name="Document.ПоказанияПриборовУчета.Form.ФормаДокумента" id="e14376c7-08d3-4a75-a210-b498e3a45855" configVersion="683d8bc1020fa342b80c7565597b6d8100000000"/>
+		<Metadata name="Document.ПоказанияПриборовУчета.Form.ФормаДокумента.Form" id="e14376c7-08d3-4a75-a210-b498e3a45855.0" configVersion="0557bbcffdeb2d4981c793345d00fab200000000"/>
+		<Metadata name="Enum.СпособОплаты" id="8762c339-94fd-4302-94f5-4aef74c18494" configVersion="567018229d46d048ac79503fdd5cb73900000000">
+			<Metadata name="Enum.СпособОплаты.EnumValue.Карта" id="1219e3f7-2b52-4b95-acda-72edad8f04a6"/>
+			<Metadata name="Enum.СпособОплаты.EnumValue.Безналичные" id="7c7c0a6a-f639-41a9-9557-9cee64109d0e"/>
+			<Metadata name="Enum.СпособОплаты.EnumValue.Наличные" id="be04c143-b4dd-4eba-b626-24ec3f79bba6"/>
+		</Metadata>
+		<Metadata name="Enum.СтатусОпалаты" id="b3ce2b8d-ca2b-44d9-954e-bf206ed65dd2" configVersion="d804eb01f95cc64a944197cc4c899b1c00000000">
+			<Metadata name="Enum.СтатусОпалаты.EnumValue.Начислено" id="32caaaab-1f64-45a4-84a4-1a169d843c15"/>
+			<Metadata name="Enum.СтатусОпалаты.EnumValue.Оплачено" id="54668a10-1b78-408b-ba51-665cfbba764e"/>
+			<Metadata name="Enum.СтатусОпалаты.EnumValue.Просрочено" id="f860420d-c87d-43da-9bfa-cd6ff0fa447e"/>
+		</Metadata>
+		<Metadata name="Enum.ТипЗаявителя" id="d810c059-410e-4797-aee1-f02265301f26" configVersion="240e67a05337d444a7f321d2b58319b100000000">
+			<Metadata name="Enum.ТипЗаявителя.EnumValue.ИП" id="443ba129-e88e-4654-901c-c0a7ac0b4608"/>
+			<Metadata name="Enum.ТипЗаявителя.EnumValue.ЮридическоеЛицо" id="bc73c75f-5f51-413e-b80f-f7eea88cf5f7"/>
+			<Metadata name="Enum.ТипЗаявителя.EnumValue.ФизическоеЛицо" id="cc703218-5104-4156-a282-05f99f6a78ed"/>
+		</Metadata>
+		<Metadata name="Enum.ТипОбъекта" id="765d157f-7b50-4776-a6d1-f0437399ffcd" configVersion="9fb318258596ba43b5a60489dbd376e400000000">
+			<Metadata name="Enum.ТипОбъекта.EnumValue.КоммерческоеПомещение" id="8088f614-7d2e-4751-b54c-8c24ce367645"/>
+			<Metadata name="Enum.ТипОбъекта.EnumValue.Квартира" id="8f4cc253-c936-447f-963e-69c5336895cb"/>
+			<Metadata name="Enum.ТипОбъекта.EnumValue.ЧастныйДом" id="f81231b4-0980-4815-a4bf-de496b9ba550"/>
+		</Metadata>
+		<Metadata name="Enum.ТипПотребителя" id="51b16379-ea0d-40b7-880d-325214fad262" configVersion="6fc9f452e26a7648b29549424e37fe7600000000">
+			<Metadata name="Enum.ТипПотребителя.EnumValue.Население" id="47b780d7-101e-4e0b-920f-675418c74f1a"/>
+			<Metadata name="Enum.ТипПотребителя.EnumValue.Коммерческие" id="a27819b8-8abd-47cf-b756-7cad3fc89e27"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ИсторияПоказаний" id="392244e0-9e80-48e3-97cb-3bfd93ee5e9f" configVersion="b6ea3d5ab0290c4a89397b7f510458e400000000">
+			<Metadata name="InformationRegister.ИсторияПоказаний.Attribute.Показание" id="3da8e1a4-74d1-4439-abdb-a47f51ec30a8"/>
+			<Metadata name="InformationRegister.ИсторияПоказаний.Attribute.Прибор" id="9ec30bf9-21f8-4a8c-bbc6-c05874d67252"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ТарифыНаГаз" id="1c91eea9-6f1c-42d6-b876-3bf06164e872" configVersion="16fa68dd11ba704bb5e022a97601242200000000">
+			<Metadata name="InformationRegister.ТарифыНаГаз.Attribute.ДатаОкончанияДействия" id="11e357f7-f9e9-4f6b-b5a9-9406b265e4bb"/>
+			<Metadata name="InformationRegister.ТарифыНаГаз.Attribute.ТипПотребителя" id="2dfed1e4-8afe-4e7a-87a4-20739de7aa71"/>
+			<Metadata name="InformationRegister.ТарифыНаГаз.Attribute.ДатаНачалаДействия" id="ac538c9a-e6e6-4822-a81c-f50d42352a7b"/>
+		</Metadata>
+		<Metadata name="Language.Русский" id="3bee064e-118a-4e86-9193-9c0522461bef" configVersion="173dfd789ac3194e810b82c1329b8f4100000000"/>
+		<Metadata name="Report.ОтчетПоЗадолженностям.Form.ФормаОтчета" id="e87eb8e1-4ca7-419c-8019-10d2aba0f836" configVersion="c0b516f2440b414ba9b6db5aa68bd06700000000"/>
+		<Metadata name="Report.ОтчетПоЗадолженностям.Form.ФормаОтчета.Form" id="e87eb8e1-4ca7-419c-8019-10d2aba0f836.0" configVersion="efaf9428a8f0f14380279e221abd591e00000000"/>
+		<Metadata name="Report.ОтчетПоНачислениям.Form.ФормаОтчета" id="a9962b07-4109-4325-a9f0-6b5b396d1b31" configVersion="c165235bcd422e4ca90c9373872824a000000000"/>
+		<Metadata name="Report.ОтчетПоНачислениям.Form.ФормаОтчета.Form" id="a9962b07-4109-4325-a9f0-6b5b396d1b31.0" configVersion="11b9835a6425ad4aab43118f0c73b4d200000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
